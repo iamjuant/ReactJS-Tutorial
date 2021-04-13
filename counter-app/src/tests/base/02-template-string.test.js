@@ -7,7 +7,7 @@ describe('Test on 02-template-string.js',()=>{
 
         const nombre = 'Juan';
         const saludo = getSaludo(nombre);
-        console.log(saludo);
+        // console.log(saludo);
         expect(saludo).toBe('Hola '+ nombre);
 
     })
